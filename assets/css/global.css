@@ -1,0 +1,30 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(216, 216, 76);
+    text-shadow: blue 2px 2px 3px;
+}
+
+body {
+    background-color: #c6f5ff;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #3f3f3f;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
